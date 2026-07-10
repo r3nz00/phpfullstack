@@ -63,6 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <button type="submit" name="operacion" value="multiplicar">Multiplicar</button>
     <button type="submit" name="operacion" value="dividir">Dividir</button>
   </form>
+<a href="listas.php"><button type="button">Ir a Listas</button></a>
 
   <?php if (!empty($resultado)): ?>
     <h3>Resultado:</h3>
